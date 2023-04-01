@@ -1,0 +1,120 @@
+.addToCart{
+  margin-top: 2px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.product-card {
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 400px;
+  margin-bottom: 1px;
+  margin-left: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: self-end;
+  background-color: white;
+  transition: transform .2s;
+}
+.product-card:hover {
+  transform: scale(1.01); 
+}
+.product-image {
+  margin-right: 10px;
+  
+}
+
+.product-image img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-info h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.product-info p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.quantity {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.quantity button {
+  
+  border: 1px solid black;
+  background-color: whitesmoke;
+  font-size: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.quantity button:hover {
+  background-color: yellow;
+}
+
+.quantity input {
+  
+  border: none;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  font-size: 16px;
+  text-align: center;
+  width: 60px;
+  margin: 0 10px;
+}
+
+.searchBar {
+  margin-left: 530px;
+  margin-bottom: -300px;
+}
